@@ -1,0 +1,4 @@
+#edit-mode: -*- python -*-
+#coding:utf-8
+
+PUBLISH('data.h', '$OUT/include')
