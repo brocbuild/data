@@ -1,4 +1,4 @@
 #edit-mode: -*- python -*-
 #coding:utf-8
 
-PROTO_LIBRARY("data", "./data.proto", Include("~/broc/protobuf/include"))
+PUBLISH("data.h", "$OUT/include")
