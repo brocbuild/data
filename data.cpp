@@ -1,7 +1,7 @@
-#include "brocbuild/data/data.h"
+#include "data.h"
 
 Data::Data():
-data("test"),
+_data("test"),
 _log()
 {
 }
