@@ -1,6 +1,5 @@
 #edit-mode: -*- python -*-
 #coding:utf-8
 
-CONFIGS("brocbuild/log@master@branch")
 #CONFIGS("brocbuild/log@V1.0.0@tag")
 STATIC_LIBRARY("data", Sources('data.cpp'))
