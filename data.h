@@ -20,13 +20,20 @@
 #ifndef  BROCBUILD_DATA_DATA_H
 #define  BROCBUILD_DATA_DATA_H
 
-struct datastruct{
-    int key;
-    int value;
-};
+#include <string>
+#include "brocbuild/log/log.h"
 
+class Data
+{
+    public:
+        Data();
+        ~Data();
+    public:
+        std::string _data;
+        log _log;
+        
+};
 
 
 #endif  //BROCBUILD_DATA_DATA_H
 
-/* vim: set expandtab ts=4 sw=4 sts=4 tw=100: */
